@@ -1,0 +1,101 @@
+.grittings {
+    background: url(../../img/grettings/Fon.png) no-repeat center/cover;
+    padding: 30px;
+}
+
+.grittings__content {
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    transition: transform 0.8s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.nav {
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.nav__item a{
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+}
+
+.nav__item:last-child a{
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 11px 22px;
+}
+
+.nav__item:hover a{
+    color: var(--colorGreen);
+    border-color: var(--colorGreen);
+}
+
+.square {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
+
+.grettings__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 107px 0 120px 0;
+}
+
+.grettings__title {
+    font-family: var(--fontIBM);
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+}
+
+.grettings__text {
+    margin-top: 30px;
+}
+
+.btn {
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background-color: var(--colorGreen);
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.8s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.grettings__btn {
+    margin-top: 60px;
+}
+
+body{
+}
