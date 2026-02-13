@@ -6,17 +6,6 @@
 .service__main-text {
     max-width: 507px;
 }
-.main-text{
-    font-family: var(--fontLF);
-    font-weight: 100;
-    font-size: 24px;
-    line-height: 150%;
-    color: #999;
-}
-.main-text span{
-    color: black;
-    font-weight: bold;
-}
 .service__list {
     margin-top: 54px;
     display: flex;
@@ -24,8 +13,29 @@
 }
 .service__item {
     padding: 51px 64px 109px 41px;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.4s;
 }
+
+.service__item:hover{
+    background-color: #f2f1f1;
+    transform: scale(1.05);
+}
+
 .service__title {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    margin-top: 25px;
 }
 .service__text {
+    font-family: var(--fontIBM);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 185%;
+    color: #999;
+    margin-top: 13px;
 }

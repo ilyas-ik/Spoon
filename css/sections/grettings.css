@@ -61,7 +61,7 @@
 }
 
 .grettings__title {
-    font-family: var(--fontIBM);
+    font-family: var(--fontLF);
     font-weight: 700;
     font-size: 71px;
     line-height: 110%;
@@ -71,6 +71,12 @@
 }
 
 .grettings__text {
+    font-family: var(--fontIBM);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 185%;
+    text-align: center;
+    color: #fff;
     margin-top: 30px;
 }
 
