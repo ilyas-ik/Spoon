@@ -2,27 +2,51 @@
     margin-top: 97px;
 }
 .offers .container {
-    border-top: 2px solid #E6E6E6;
-    border-bottom: 2px solid #E6E6E6;
-    padding: 120px 0px;   
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    padding: 120px 0px;
 }
 .offers__list {
 }
 .offers__card {
+    display: flex;
+    column-gap: 100px;
 }
-.advert__main-text {
+.offers__card:first-child{
+    padding-right: 230px;
+}
+.offers__card:last-child{
+    padding-left: 230px;
+    margin-top: 110px;
+}
+.offers__main-text {
 }
 .main-text {
 }
 .offers__text {
-}
-.offers__block {
+    font-family: var(--fontIBM);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 185%;
+    color: #999;
+    margin-top: 25px;
 }
 .offers__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
 }
 .offers__info-text {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
 }
 .link {
 }
 .offers__link {
+    margin-top: 12px;
 }

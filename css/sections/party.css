@@ -1,0 +1,38 @@
+.party {
+    margin-top: 150px;
+}
+.party__content {
+    display: flex;
+    justify-content: space-between;
+}
+.party__info {
+    max-width: 483px;
+}
+.party__text {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5ab963;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.party__text::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: var(--colorGreen);
+    display: inline-block;
+}
+
+.main-text {
+}
+.party__main-text {
+    margin-top: 15px;
+}
+.btn {
+}
+.party__btn {
+}
